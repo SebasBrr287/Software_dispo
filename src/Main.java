@@ -4,7 +4,8 @@ void main() {
     Dispositivo d1 = new Dispositivo();
     Dispositivo d2 = new Dispositivo();
 
-    d1.nombre = "Telefono";
+    /*
+    /d1.nombre = "Telefono";
     d1.tipo = "Comunicación";
     d1.activo = true;
 
@@ -14,4 +15,14 @@ void main() {
 
     d1.mostrarInformacion();
     d2.mostrarEstado();
+}
+     */
+
+    d1.setNombre("Laptop");
+    d1.setTipo("Lenovo");
+    d1.setActivo(true);
+
+    System.out.println(d1.getNombre());
+    System.out.println(d1.getTipo());
+    System.out.println(d1.isActivo());
 }
